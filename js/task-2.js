@@ -1,4 +1,6 @@
 'use strict';
+taskNum++;
+console.log(`%c Task ${taskNum} `, style);
 const calcAverageCalories = function (days = []) {
   if (!Array.isArray(days))
     throw new Error(`Argument must be array! You provide ${typeof days}`);
@@ -39,5 +41,3 @@ console.log(
 ); // 2270
 
 console.log(calcAverageCalories([])); // 0
-console.log(calcAverageCalories({})); // Error
-console.log(calcAverageCalories(200)); // Error

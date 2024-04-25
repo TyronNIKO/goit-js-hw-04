@@ -1,4 +1,7 @@
 'use strict';
+taskNum++;
+console.log(`%c Task ${taskNum} `, style);
+
 const profile = {
   username: 'Jacob',
   playTime: 300,

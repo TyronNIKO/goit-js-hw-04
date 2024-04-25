@@ -1,4 +1,8 @@
 'use strict';
+let taskNum = 1;
+const style = 'background: rgba(0, 255, 0, 0.5); color: #333; font-size:18px;';
+console.log(`%c Task ${taskNum} `, style);
+
 const isEnoughCapacity = function (products = 0, containerSize = 0) {
   if (typeof products !== 'object')
     throw new Error('1st argument must be object!');
